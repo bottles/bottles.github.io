@@ -1,23 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Car Parking Monitoring System</title>
-</head>
-<body>
+<title>ANU Car Parking</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card-2">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+</div>
 
-<h1>ANU Car Parking Monitoring System</h1>
+  <div class="w3-display-container w3-center">
+    <img src="https://i.pinimg.com/564x/28/47/84/284784d77442ba9c9a7b69518e89b89f.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>WARRRRRRNING!</h3>
+      <p><b>We believe that you won't want to park your car here at ANU.</b></p>   
+    </div>
+  </div>
 
-<p>Do you feel that finding a available car spot is an impossible mission on peak time?</p>
-<p>Did you experience this situation that after trying several car parks, you cannot find an available spot?</p>
-<p>Are you always busy and you want to save some time in search of parking places?</p>
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">TRACE</h2>
+    <p class="w3-opacity"><i>We Let You Know Where You Can Park Your Car.</i></p>
+<p class="w3-justify">Do you feel that finding a available car spot is an impossible mission on peak time?</p>
+<p class="w3-justify">Did you experience this situation that after trying several car parks, you cannot find an available spot?</p>
+<p class="w3-justify">Are you always busy and you want to save some time in search of parking places?</p>
 
 
-<p>Below are come complaints from students' posts on facebook group.</p>
+<div class="w3-panel w3-leftbar">
+  <p><i class="fa fa-quote-right w3-xlarge"></i><br>
+  <i class="w3-serif w3-large">Parking is so hard to come by on or near campus that parking like this is a dick move of epic proportions! Not enough space to even attempt squeezing in another car - seriously, if you can't handle parking without the assistance of white lines, do us all a favour and catch a bus!!</i></p>
+</div>
 
-<p>- Parking is so hard to come by on or near campus that parking like this is a dick move of epic proportions! Not enough space to even attempt squeezing in another car - seriously, if you can't handle parking without the assistance of white lines, do us all a favour and catch a bus!!</p>
-<p>- I had an appointment this morning so I knew I'd have no chance... circled for 30 minutes - nothing. I ended up sitting in one particular car park for a further 10 minutes until someone finally left </p>
-<p>- This happens every day 💔</p>
-<p>- I cannot find a parking spot in ANU and I have to be back to home.</p>
+<div class="w3-panel w3-leftbar">
+  <p><i class="fa fa-quote-right w3-xlarge"></i><br>
+  <i class="w3-serif w3-large">Parking is so hard to come by on or near campus that parking like this is a dick move of epic proportions! Not enough space to even attempt squeezing in another car - seriously, if you can't handle parking without the assistance of white lines, do us all a favour and catch a bus!!</i></p>
+</div>
+
+<div class="w3-panel w3-leftbar">
+  <p><i class="fa fa-quote-right w3-xlarge"></i><br>
+  <i class="w3-serif w3-large">I had an appointment this morning so I knew I'd have no chance... circled for 30 minutes - nothing. I ended up sitting in one particular car park for a further 10 minutes until someone finally left </i></p>
+</div>
+
+<div class="w3-panel w3-leftbar">
+  <p><i class="fa fa-quote-right w3-xlarge"></i><br>
+  <i class="w3-serif w3-large">
+This happens every day 💔
+</i></p>
+</div>
+
+
+<div class="w3-panel w3-leftbar">
+  <p><i class="fa fa-quote-right w3-xlarge"></i><br>
+  <i class="w3-serif w3-large">
+I cannot find a parking spot in ANU and I have to be back to home.
+</i></p>
+</div>
 
 <p>NOW! All of these annoying things will be addressed by this amazing mobile app.</p>
 <p>This ANU car parking monitoring system can be your ideal solution!</p>
@@ -25,11 +71,22 @@
 <p>*Description*</p>
 <p>This web app allows people in uni to get access to an information system where they can check the current available number of parking spots in ANU car parks. It will include three major parts in this system: a monitor, a back-end system, a front-end system, and a database. This amazing system will look through a monitor in which the system traces whether this spot has been occupied or not by adopting object recognition technology and then sends data back to the back-end system.  In the front-end system, the data will be shown properly and tell the users that how many available places are there on campus and where they can find the available spots.</p>
 
-<p>*Business Value:*</p>
-<p>This system will mainly serve for ANU car parks; however, this business concept can also been expanded to many commercial areas such as Westfield shopping mall and so on.</p>
-  
-<p>*github* </p>
-<p>https://github.com/bottles/carparkingmonitoringsystem</p>
+<!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Interested? Contect us!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" ></i> Australian National University, Canberra, Australia<br>
+        <i class="fa fa-envelope" > </i> Email: kyrie.31415926535@gmail.com<br>
+      </div>
+    </div>
+  </div>
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <a href="http://www.facebook.com" class="fa fa-facebook-official w3-hover-opacity"></a>
+  <a href="https://github.com/bottles/carparkingmonitoringsystem" class="fa fa-github w3-hover-opacity"></a>
+  <a href="https://www.linkedin.com/in/jie-gao-7060a5149" class="fa fa-linkedin w3-hover-opacity"></a>
+</footer>
 
 </body>
 </html>
